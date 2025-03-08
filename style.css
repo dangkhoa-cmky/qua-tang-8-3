@@ -1106,3 +1106,12 @@ body {
         max-height: 100%;
     }
 }
+#mewmew {
+    position: absolute;
+    top: -100px; /* Điều chỉnh theo vị trí khung */
+    left: -300px; /* Điều chỉnh theo vị trí khung */
+    width: 300px; /* Điều chỉnh chiều rộng phù hợp */
+    height: 300px; /* Điều chỉnh chiều cao phù hợp */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo */
+    border-radius: 10px; /* Bo góc cho đẹp */
+}
